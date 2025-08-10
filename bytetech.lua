@@ -1884,12 +1884,12 @@ pui.macros.ab = "\a6387D0FF"
 				},
 
 				servers = {
-					list = group.a:listbox("\nactive-servers", servs),
-					connect = group.a:button("\f<a>о„‚\r Connect"),
-					copy = group.a:button("\f<a>о„І\r Copy ip-address"),
+					--list = group.a:listbox("\nactive-servers", servs),
+					--connect = group.a:button("\f<a>о„‚\r Connect"),
+					--copy = group.a:button("\f<a>о„І\r Copy ip-address"),
 
-					space = self:header(group.a),
-					retry = group.a:button("\f<a>о…‰\r Rejoin \f<a>(Retry)"),
+					--space = self:header(group.a),
+					--retry = group.a:button("\f<a>о…‰\r Rejoin \f<a>(Retry)"),
 				},
 
 				stats = {
